@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Astros: Mission to the Stars</title>
+        <link rel="stylesheet" href="Styles.css">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+    </head>
+    <body>
+        <div id="menu" class="overlay">
+            <div class="menu-content">
+                <h1>ASTROS</h1>
+                <p>SYSTEMS: <span class="status">ONLINE</span></p>
+                <p class="flavor-text">Navigate the cosmos using WASD or Arrow Keys. Shift to boost thrusters. Click planets to scan data.</p>
+                
+                <button id="launch-btn">INITIALIZE LAUNCH</button>
+                
+                <div class="loading-bar-container">
+                    <div class="loading-bar"></div>
+                </div>
+            </div>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+        <div class="hero" id="menu">
+            <h1>Explore the Infinite</h1>
+            <p>Your gateway to the cosmos.</p>
+            <button id="launch-btn">Launch Mission</button>
+        </div>
+        <audio id="bg-music">
+        </audio>
+        <script src="Data.js"></script>
+        <script src="Audio.js"></script>
+        <script src="Main.js"></script>
+        <script src="Space.js"></script>
+    </body>
+</html>
