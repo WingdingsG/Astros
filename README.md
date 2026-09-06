@@ -2,14 +2,8 @@
 > [!NOTE]
 > This project is just a test made. There will be no updates to it for improvements or fixes related to it, resulting in it being a final product and open-source. 
 
-This project has been create for the purpose of understanding _complex web application_, __Single Page Application (SPA)__. The project, which combines astronomical simulation elements with interactive mechanics, is built on a robust architecture, using exclusively native web technologies.
-
-> ### Contents
-> - [Interface](#interface)
-> - [Control](#control)
-> - [Exploration](#exploration)
-> - [Hardware Limitation](#hardware-limitation)
-> - [Sources](#sources)
+This project has been create for the purpose of understanding _complex web application_, __Single Page Application (SPA)__. The project, which combines astronomical simulation elements with interactive mechanics, is built on a robust architecture, using exclusively native web technologies.\
+Click [here](/index.html) to access the html file.
 
 ## Interface
 The main menu (Overlay) serves as a launchpad, providing the user with clear navigation instructions before the graphics engine is initialized. Once the _INITIALIZE LAUNCH_ button is activated, the procedural generation scripts and audio system are triggered.
